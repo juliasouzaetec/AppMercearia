@@ -1,0 +1,179 @@
+.categories_topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding:22px;
+    
+}
+
+.categories_toptext{
+    display: flex;
+    flex-direction: column;
+}
+
+.categories_text1{
+    margin: 20px 0 0 25px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.19px;
+    text-align: left;
+
+
+}
+.categories_title{
+    margin: 10px 0 0 25px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: left;
+
+}
+
+.categories_text2{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;    
+    margin: 43px 0 0 25px;
+}
+
+.categories_{
+    margin: 23px 9px 0 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categories_frutas_itens,
+.categories_diversos_itens,
+.categories_acougue_itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 123px;
+    height: 150px; 
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.categories_frutas_itens{
+    background-color: #C5D7B1;
+}
+
+.categories_diversos_itens{
+    background-color: #92B6FA;
+}
+
+.categories_acougue_itens{
+    background-color: #F0BDB2;
+}
+
+.categories_frutas_img,
+.categories_diversos_img, 
+.categories_acougue_img{
+    width: 60px;
+    height: 60px;
+}
+
+.categories_frutas_text, 
+.categories_diversos_text, 
+.categories_acougue_text{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 16px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+    background-color: #828B934D;
+}
+
+.categories_compras_text{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;    
+    margin: 35px 0 0 25px;
+}
+
+.categories_compras{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    gap: 10px; 
+}
+
+.categories_compras_frutas,
+.categories_compras_diversos,
+.categories_compras_acougue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.categories_compras_frutas_img,
+.categories_compras_diversos_img,
+.categories_compras_acougue_img{
+    width: 77px;
+    height: 77px;
+    border-radius: 60%;
+}
+
+.categories_compras_frutas_img{
+    background-color: #C5D7B1;
+}
+.categories_compras_diversos_img{
+    background-color: #92B6FA;
+}
+.categories_compras_acougue_img{
+    background-color: #F0BDB2;
+}
+
+.categories_compras_frutas_itendate p,
+.categories_compras_diversos_itendate p,
+.categories_compras_acougue_itendate p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;   
+    color: #050609;
+}
+
+.categories_compras_frutas_itendate span
+.categories_compras_diversos_itendate span,
+.categories_compras_acougue_itendate span{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.19px;
+    text-align: left;
+    color: #828B93;
+}
+
+.categories_compras_frutas_valoriten h3, 
+.categories_compras_diversos_valoriten h3,
+.categories_compras_acougue_valoriten h3{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    text-align: left;
+    color: #050609;
+}
+
+.categories_compras_frutas_valoriten span, 
+.categories_compras_acougue_valoriten span,
+.categories_compras_acougue_valoriten span{
+    font-family: Sansation;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11.19px;
+    text-align: left;
+    color: #828B93;
+}

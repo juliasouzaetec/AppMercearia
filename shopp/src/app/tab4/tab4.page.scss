@@ -1,0 +1,127 @@
+ion-content{
+    margin: 20px 0 0 42px;
+}
+
+.borderbutton{
+    width: 67px;
+    height: 67px;
+    background-color:#F8F9FA;
+    border-radius: 60%;
+}
+
+
+.returnbutton{
+    width: 60px;
+    height: 60px;
+    color: #333;
+}
+
+.carrinho_title{
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41.45px;
+    text-align: left;
+}
+
+.carrinho_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carrinho_frutas,
+.carrinho_diversos, 
+.carrinho_acougue{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 12px;
+    //box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carrinho_frutas_img,
+.carrinho_diversos_img,
+.carrinho_acougue_img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.carrinho_frutas_img{
+    background-color: #C5D7B1;
+}
+
+.carrinho_diversos_img{
+    background-color: #92B6FA;
+}
+.carrinho_acougue_img{
+    background-color: #F0BDB2;
+}
+
+.carrinho_frutas_details p,
+.carrinho_diversos_details p, 
+.carrinho_acougue_details p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #050609;
+    margin: 0;
+}
+
+.carrinho_frutas_details span,
+.carrinho_diversos_details span, 
+.carrinho_acougue_details span{
+    font-size: 14px;
+    color: #828B93;
+}
+
+.carrinho_frutas_details span:first-of-type {
+    font-weight: 700;
+    color: #050609;
+}
+
+
+.carrinho_frutas_edit,
+.carrinho_diversos_edit, 
+.carrinho_acougue_edit{
+    font-size: 14px;
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.carrinho_pagartotal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #5A67D8;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.carrinho_pagar p{
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+
+.carrinho_pagar h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin: 5px 0 0 0;
+}
+
+.carrinho_button_pagar{
+    background-color: #ffffff;
+    color: #5A67D8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;   
+}
+
